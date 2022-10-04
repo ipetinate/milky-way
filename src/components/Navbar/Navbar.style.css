@@ -1,5 +1,6 @@
 .navbar {
   @apply flex flex-row;
-  @apply justify-center content-center items-center;
-  @apply w-full h-20;
+  @apply justify-between content-center items-center;
+  @apply w-full h-20 px-10;
+  @apply shadow-md dark:bg-zinc-800 dark:text-teal-500;
 }

@@ -1,0 +1,17 @@
+.centered-col,
+.centered-row {
+  @apply justify-center content-center items-center justify-items-center;
+  @apply w-full h-full;
+}
+
+.centered-col {
+  @apply flex flex-col;
+}
+
+.centered-row {
+  @apply flex flex-row;
+}
+
+.safe-area {
+  @apply p-1 m-1;
+}

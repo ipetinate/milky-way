@@ -1,13 +1,11 @@
 .app_shell {
-  @apply w-full h-full;
+  @apply relative w-screen h-screen pt-28;
 }
 
 .app_shell__header {
-  @apply flex flex-row;
-  @apply justify-center content-center items-center;
-  @apply w-full h-20;
+  @apply fixed w-full h-20 top-0;
 }
 
 .app_shell__main {
-  @apply w-full h-full;
+  @apply w-full h-full px-10;
 }

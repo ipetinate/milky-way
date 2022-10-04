@@ -5,9 +5,12 @@ import { BrowserRouter } from 'react-router-dom'
 import { App } from 'app'
 
 import './styles/global.css'
+import './styles/helpers.css'
 import './styles/tailwind.css'
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+).render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
