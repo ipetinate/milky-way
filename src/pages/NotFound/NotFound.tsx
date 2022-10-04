@@ -1,3 +1,7 @@
 export function NotFound() {
-  return <div>nao encontrado</div>
+  return (
+    <h1 className='text-3xl font-bold underline'>
+      Página não encontrada
+    </h1>
+  )
 }

@@ -1,0 +1,5 @@
+.navbar {
+  @apply flex flex-row;
+  @apply justify-center content-center items-center;
+  @apply w-full h-20;
+}
