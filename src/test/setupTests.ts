@@ -1,5 +1,5 @@
-import '@testing-library/jest-dom';
-import { vitest } from 'vitest';
+import '@testing-library/jest-dom'
+import { vitest } from 'vitest'
 
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
@@ -11,10 +11,10 @@ Object.defineProperty(window, 'matchMedia', {
     removeListener: vitest.fn(), // Deprecated
     addEventListener: vitest.fn(),
     removeEventListener: vitest.fn(),
-    dispatchEvent: vitest.fn(),
-  })),
-});
+    dispatchEvent: vitest.fn()
+  }))
+})
 
 vitest.mock('react-chartjs-2', () => ({
-  Doughnut: () => null,
-}));
+  Doughnut: () => null
+}))
