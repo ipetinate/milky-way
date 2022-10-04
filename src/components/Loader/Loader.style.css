@@ -1,0 +1,57 @@
+.loading {
+  @apply flex;
+}
+
+.loading .dot {
+  @apply relative w-5 h-5 m-2 rounded-[50%];
+}
+
+.loading .dot::before {
+  @apply absolute content-[''] w-full h-full bg-inherit;
+
+  border-radius: inherit;
+  animation: wave 2s ease-out infinite;
+}
+
+.loading .dot:nth-child(1) {
+  @apply bg-orange-500;
+}
+.loading .dot:nth-child(1)::before {
+  animation-delay: 0.2s;
+}
+.loading .dot:nth-child(2) {
+  @apply bg-blue-500;
+}
+.loading .dot:nth-child(2)::before {
+  animation-delay: 0.4s;
+}
+.loading .dot:nth-child(3) {
+  @apply bg-lime-500;
+}
+.loading .dot:nth-child(3)::before {
+  animation-delay: 0.6s;
+}
+.loading .dot:nth-child(4) {
+  @apply bg-red-500;
+}
+.loading .dot:nth-child(4)::before {
+  animation-delay: 0.8s;
+}
+.loading .dot:nth-child(5) {
+  @apply bg-gray-500;
+}
+.loading .dot:nth-child(5)::before {
+  animation-delay: 1s;
+}
+
+@keyframes wave {
+  50%,
+  75% {
+    transform: scale(2.5);
+  }
+
+  80%,
+  100% {
+    opacity: 0;
+  }
+}

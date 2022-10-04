@@ -1,0 +1,4 @@
+.divider {
+  @apply h-0 w-full;
+  @apply border-t border-slate-300;
+}

@@ -1,0 +1,36 @@
+.card {
+  @apply flex flex-col;
+  @apply w-full min-w-256 h-full min-h-256 gap-0 p-5;
+  @apply bg-white rounded-lg shadow-md;
+  @apply dark:bg-slate-900 rounded-lg shadow-md;
+
+  @apply hover:shadow-lg;
+}
+
+.card__header {
+  @apply flex flex-row;
+  @apply justify-between content-center items-center;
+  @apply w-full h-1/5 gap-3 p-2;
+}
+
+.card__header-title {
+  @apply text-lg font-semibold;
+  @apply min-w-256;
+}
+
+.card__header-icon {
+  @apply flex;
+  @apply content-center items-center;
+}
+
+.card__main-content {
+  @apply flex;
+  @apply content-center items-center;
+  @apply w-full h-full px-2 py-5;
+}
+
+.card__actions {
+  @apply flex;
+  @apply justify-end content-center items-center;
+  @apply w-full h-1/5 gap-5 p-2;
+}

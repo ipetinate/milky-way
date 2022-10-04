@@ -1,5 +1,5 @@
 html,
 body,
 #root {
-  @apply border-0 m-0 p-0;
+  @apply border-0 m-0 p-0 dark:bg-zinc-900 dark:text-white;
 }

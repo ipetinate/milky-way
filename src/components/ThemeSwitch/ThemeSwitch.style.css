@@ -1,0 +1,61 @@
+:root {
+  --light: #d8dbe0;
+  --dark: #4c4c4d;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
+}
+.theme_switch {
+  @apply h-20 flex items-center content-center;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 80px;
+  height: 40px;
+  margin: auto 0px;
+}
+
+label {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  background-color: var(--dark);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input {
+  position: absolute;
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+input:checked ~ .slider {
+  background-color: var(--light);
+}
+
+.slider::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: inset 14px -4px 0px 0px var(--light);
+  background-color: var(--dark);
+  transition: 0.3s;
+}
+
+input:checked ~ .slider::before {
+  transform: translateX(38px);
+  background-color: var(--dark);
+  box-shadow: none;
+}

@@ -1,0 +1,16 @@
+.field {
+  @apply flex flex-col;
+  @apply w-full gap-5;
+}
+
+.field__children {
+  @apply flex flex-row;
+  @apply justify-start content-center items-center;
+  @apply gap-3;
+}
+
+.field__header {
+  @apply flex flex-row;
+  @apply justify-between content-center items-center;
+  @apply gap-3;
+}

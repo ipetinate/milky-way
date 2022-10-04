@@ -1,3 +1,4 @@
+import { ThemeSwitch } from 'components/ThemeSwitch'
 import './Navbar.style.css'
 
 export function Navbar() {
@@ -5,7 +6,9 @@ export function Navbar() {
     <nav className='navbar'>
       <div className='navbar__left'>Logo</div>
       <div className='navbar__center'>Center</div>
-      <div className='navbar__right'>Actions</div>
+      <div className='navbar__right'>
+        <ThemeSwitch />
+      </div>
     </nav>
   )
 }
