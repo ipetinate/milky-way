@@ -1,24 +1,25 @@
 # Template completão para projetos React
 
 ## Setup
-- React 18
-- Vite
-- TypeScript
-- Absolute Paths
-- Vitest
-- Testing Library
-- AppShell
-- Dark/Light Mode
-- Hooks (some tools)
-- TailwindCSS
-- React Query
-- React Hot Toast
-- React Router DOM
-- Zustand
-- PWA
-- NVMRC
-- Prettier
-- ESLint #wip
-- Husky pre-commit #wip
-- Cypress #wip
-- i18n #wip
+
+- [x] React 18
+- [x] Vite
+- [x] TypeScript
+- [x] Absolute Paths
+- [x] Vitest
+- [x] Testing Library
+- [x] AppShell
+- [x] Dark/Light Mode
+- [x] Hooks (some tools)
+- [x] TailwindCSS
+- [x] React Query
+- [x] React Hot Toast
+- [x] React Router DOM
+- [x] Zustand
+- [x] PWA
+- [x] NVMRC
+- [x] Prettier
+- [ ] ESLint #wip
+- [ ] Husky pre-commit #wip
+- [ ] Cypress #wip
+- [ ] i18n #wip
