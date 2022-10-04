@@ -11,3 +11,5 @@
 - React Hot Toast
 - React Router DOM
 - Zustand
+- PWA
+- NVMRC
